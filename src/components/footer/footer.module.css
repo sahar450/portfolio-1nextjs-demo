@@ -1,0 +1,38 @@
+@import '../../app/globals.css';
+body{
+  background-color: white;
+}
+.baccardfooter{
+    background-color: var(--backgroundd-color);
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px 0px 50px 0px;
+    transition: all 2 ease-in;
+    animation: showme 6s 1;
+}
+.baccardfooter-title{
+    color: white;
+    font-size: medium;
+}
+.baccardfooter-txt{
+    color: white;
+}
+@keyframes showme {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: translateZ(0);
+    }
+    
+  }
+
+
+.ulllfooter{
+  padding: 4px 0px 4px 0px;
+  color: var(--backgroundd-color) !important;
+}

@@ -1,0 +1,89 @@
+@import '../../app/globals.css';
+.bacworking{
+    background-color: var(--backgroundd-color);
+    padding: 25px;
+    margin: 30px 0px 88px 0px;
+}
+.bacworking-title{
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 62px;
+    margin: 15px 0px 25px 0px;
+}
+.bacworkind-boximg{
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.bacworkind-img{
+    transition: all 0.3s ease-in;
+    border-radius: 8px;
+}
+
+.bacworkind-img:hover{
+    transform: scale(1.03);
+
+}
+.ptxt{
+    color: #9c9c9c;
+    text-align: justify;
+    margin: 156px 0px 50px 0px;
+}
+.custom-bar{
+    color: #ffcd4c !important;
+ 
+}
+.progras-bar{
+   
+    background-color: #ebebe9;
+    width: 100%;
+  
+    position: relative;
+    
+    
+  
+}
+.progras-diteil{
+    width: 1%;
+    height: 30px;
+    background-color: #ffcd4c;
+    position: absolute;
+    margin: auto;
+}
+.minbox-accordion{
+    margin: 150px 0px 100px 70px;
+ 
+   
+}
+.minbox-accordion1{
+    margin: 15px 0px 15px 70px;
+ 
+   
+}
+.btn-accordion{
+    background-color: transparent;
+    border: none;
+    color: wheat;
+    font-size: 18px;
+    text-align: center;
+}
+.line-accordion{
+    background-color: white;
+    color: white;
+    max-width: 73.7%;
+
+}
+.txt-accordion{
+    color: white;
+    max-width: 73.7%;
+
+}
+@media only screen and (max-width: 1000px) {
+    .minbox-accordion{
+        margin: 150px 0px 100px 0px;
+     
+       
+    }
+} 

@@ -1,0 +1,64 @@
+ 
+.minbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: baseline;
+}
+.menu-show{
+    display: flex;
+    list-style-type: none; 
+    padding: 5px;
+    color: white;
+}
+.btnWelcome{
+    background-color: #ffcd4c;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+.hidemenu{
+    display: none;
+}
+.btn-hidemune{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.btnicon{
+    color: white;
+}
+.resmenu-show{
+    color: black;
+}
+.reshide{
+    left: -190px;
+   position: absolute;
+   background-color: rgb(0, 0, 0);
+   padding: 15px;
+   transition: all 0.5s ease-in-out;
+   height: 100vh;
+   color: black;
+
+}
+.resshow{
+    left: 0;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    transition: all 0.5s ease-in-out;
+    color: black;
+    height: 100vh;
+
+}
+.resshow ,.reshide a{
+    color: black !important;
+}
+@media only screen and (max-width: 480px) {
+    .minbtnWelcome , .menu-show{
+        display: none;
+    }
+    .hidemenu{
+        display: block;
+    }
+} 

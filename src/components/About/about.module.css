@@ -1,0 +1,26 @@
+.minboxabout{
+    margin: 170px 0px 170px 0px;
+    
+}
+.txtabout{
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 0px 55px 0px;
+}
+.ptxtabout{
+    color: black;
+   
+   margin: 0px 10px 0px 10;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: 0;
+   max-width: 351px;
+   width: 100%;
+}
+.img-about{
+    text-align: end;    
+}
+.img-about-img{
+    border-radius: 8px;
+}

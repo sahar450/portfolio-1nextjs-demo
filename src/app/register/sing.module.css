@@ -1,0 +1,64 @@
+body {
+    background-image: url('/images/Gold Blue 03.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .cont {
+    margin: auto;
+  }
+  
+  .registerbox {
+    text-align: center;
+    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .registerback {
+    background-color: #1b1e23;
+    border: 2px solid #ffcd4c;
+    padding: 50px;
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .inputbox {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-detile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .input-label {
+    width: 100px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  
+ 
+  
+  .btnform {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffcd4c;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

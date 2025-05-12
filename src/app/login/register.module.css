@@ -1,0 +1,36 @@
+body{
+    background-image: url('/images/Gold Blue 03.jpg');
+}
+.cont{
+    margin:auto;
+}
+.registerbox{
+    text-align: center;
+    margin: 300px auto 300px auto ;
+    
+}
+.registerback{
+    background-color: #1b1e23;
+    border: 2px solid #ffcd4c;
+    padding: 50px;
+    border-radius: 8px;
+    color: white;
+
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+}
+.input-detile{
+    margin: 25px 0px 25px 0px;
+}
+
+.input-label{
+    margin: 0px 10px 0px 0px;
+}
+.btnform{
+    padding: 10px;
+    border: none;
+    background-color: #ffcd4c;
+    border-radius: 8px;
+}
