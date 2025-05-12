@@ -1,9 +1,9 @@
-@import '../../app/globals.css';
 .bacworking{
-    background-color: var(--backgroundd-color);
+    background-color: #1b1e23;
     padding: 25px;
     margin: 30px 0px 88px 0px;
 }
+
 .bacworking-title{
     color: white;
     padding: 20px;

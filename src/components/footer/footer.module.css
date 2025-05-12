@@ -1,9 +1,9 @@
-@import '../../app/globals.css';
+
 .back{
   background-color: white;
 }
 .baccardfooter{
-    background-color: var(--backgroundd-color);
+    background-color: #1b1e23;
     padding: 30px;
     border-radius: 8px;
     text-align: center;
@@ -34,5 +34,5 @@
 
 .ulllfooter{
   padding: 4px 0px 4px 0px;
-  color: var(--backgroundd-color) !important;
+  color: #1b1e23 !important;
 }

@@ -11,13 +11,7 @@ a{
   color: wheat !important;
   text-decoration: none !important;
 }
-:root{
-  --Yellow-color:#ffcd4c;
-  --yello-txt:#f9d67c;
-  --gray-color:#27292e;
-  --black-txt:#1b1e23;
-  --backgroundd-color:#1b1e23;
-}
+
 input {
   flex: 1;
   padding: 6px 10px;
