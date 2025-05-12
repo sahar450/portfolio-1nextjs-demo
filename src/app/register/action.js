@@ -46,7 +46,7 @@ export async function sendRegister(prev, formData) {
   };
 
   try {
-    const res = await fetch("http://localhost:4000/v1/auth/register", {
+    const res = await fetch("https://renderme-irxt.onrender.com/v1/auth/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

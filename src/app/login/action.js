@@ -22,7 +22,7 @@ export async function sendLogin(prevState, formData) {
     };
   
     try {
-      const res = await fetch("http://localhost:4000/v1/auth/login", {
+      const res = await fetch("https://renderme-irxt.onrender.com/v1/auth/login", {
         method: "POST",
         headers: {
           'Content-Type': "application/json"
